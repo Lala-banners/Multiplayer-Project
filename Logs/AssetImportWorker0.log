@@ -942,3 +942,34 @@ Received Import Request.
 Start importing Assets/Multiplayer Battlecars/Scripts/UI/Lobby.cs using Guid(771ace5d501983447b20fd8058fb1396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c61eb5838e7cf456314cd0d75be445') in 0.006358 seconds
   Import took 0.008922 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004594 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.859 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1485 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 70.6 MB.
+System memory in use after: 70.1 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 1948.
+Total: 2.089900 ms (FindLiveObjects: 0.147900 ms CreateObjectMapping: 0.052600 ms MarkObjects: 1.571600 ms  DeleteObjects: 0.316900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 872.026874 seconds.
+  path: Assets/Multiplayer Battlecars/Scripts/UI/Lobby.cs
+  artifactKey: Guid(771ace5d501983447b20fd8058fb1396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiplayer Battlecars/Scripts/UI/Lobby.cs using Guid(771ace5d501983447b20fd8058fb1396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23bdc7640b5b1e4e2da85d0658ecd868') in 0.005952 seconds
+  Import took 0.008474 seconds .
+

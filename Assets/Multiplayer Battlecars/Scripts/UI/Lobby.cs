@@ -17,12 +17,12 @@ namespace Battlecars.UI
         public void OnPlayerConnected(BattlecarsPlayerNet _player)
         {
             bool assigned = false;
-
+            List<LobbyPlayerSlot> slots = assigningToLeft ? leftTeamSlots : rightTeamSlots;
             if (assigningToLeft)
             {
                 //TRUE POWER OF LAMBDAS
                 //Loop through each item in the list and run a lambda with the item at that index.
-                leftTeamSlots.ForEach(slot => 
+                slots.ForEach(slot => 
                 { 
                     if(assigned)
                     {
@@ -30,6 +30,9 @@ namespace Battlecars.UI
                     }
                     else if(!slot.isTaken)
                     {
+                        //If we haven't already assigned the player to a slot and this slot hasn't been taken,
+                        //assign this player to this slot and team
+                        //as slot has been assigned
                         slot.AssignPlayer(_player);
                         assigned = true;
                     }
@@ -39,6 +42,8 @@ namespace Battlecars.UI
             {
 
             }
+
+
 
             //Flip the flag so that the next one will end up in the other list.
             assigningToLeft = !assigningToLeft;

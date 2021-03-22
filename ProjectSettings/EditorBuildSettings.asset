@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Multiplayer Battlecars/Scenes/Offline.unity
+    guid: 376211f13baa2c04d8028e52b853ed98
+  - enabled: 1
+    path: Assets/Multiplayer Battlecars/Scenes/Online.unity
+    guid: 491f6089ddc9342489d12fb245819746
+  - enabled: 1
+    path: Assets/Multiplayer Battlecars/Scenes/Gameplay.unity
+    guid: 5e7af4bd95ac53a4cb784a9eedf8f6f9
   m_configObjects: {}

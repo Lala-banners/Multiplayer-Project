@@ -19,7 +19,7 @@ namespace Battlecars.UI
         #endregion
 
         // Set the player in this slot to the passed player
-        private void AssignPlayer(BattlecarsPlayerNet _player) => player = _player;
+        public void AssignPlayer(BattlecarsPlayerNet _player) => player = _player;
 
 
         // Update is called once per frame

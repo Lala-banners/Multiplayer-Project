@@ -709,3 +709,35 @@ System memory in use after: 68.2 MB.
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1930.
 Total: 1.786100 ms (FindLiveObjects: 0.152900 ms CreateObjectMapping: 0.058500 ms MarkObjects: 1.559700 ms  DeleteObjects: 0.014000 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 1665.157283 seconds.
+  path: Assets/Multiplayer Battlecars/Scenes/InGameMenu.unity
+  artifactKey: Guid(c68cb3b03189f884b88fad0eae349b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiplayer Battlecars/Scenes/InGameMenu.unity using Guid(c68cb3b03189f884b88fad0eae349b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b587cc2532ce45adf3cb3d9d71f87f') in 0.020782 seconds
+  Import took 0.023484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000680 seconds.
+  path: Assets/Multiplayer Battlecars/Scenes/InGameMenu.unity
+  artifactKey: Guid(c68cb3b03189f884b88fad0eae349b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiplayer Battlecars/Scenes/InGameMenu.unity using Guid(c68cb3b03189f884b88fad0eae349b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9b587cc2532ce45adf3cb3d9d71f87f') in 0.003275 seconds
+  Import took 0.005278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.771254 seconds.
+  path: Assets/Multiplayer Battlecars/Scenes/InGameMenu.unity
+  artifactKey: Guid(c68cb3b03189f884b88fad0eae349b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiplayer Battlecars/Scenes/InGameMenu.unity using Guid(c68cb3b03189f884b88fad0eae349b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14b49138893d3f2ed84272478525f061') in 0.004308 seconds
+  Import took 0.007043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.499477 seconds.
+  path: Assets/Multiplayer Battlecars/Scenes/InGameMenus.unity
+  artifactKey: Guid(c68cb3b03189f884b88fad0eae349b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiplayer Battlecars/Scenes/InGameMenus.unity using Guid(c68cb3b03189f884b88fad0eae349b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13acb73077934bdb07417cbbcce73a7d') in 0.008821 seconds
+  Import took 0.011039 seconds .
+

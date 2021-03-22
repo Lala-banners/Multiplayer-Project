@@ -327,3 +327,191 @@ Received Import Request.
 Start importing Assets/Sci-Fi Multiplayer/Scenes/Online.unity using Guid(491f6089ddc9342489d12fb245819746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ecd30c1fc2e78e8575fc1442410a058') in 0.006981 seconds
   Import took 0.009375 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 433.571527 seconds.
+  path: Assets/Multiplayer Battlecars
+  artifactKey: Guid(d632036ecd41b28439e7e8dddb745b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiplayer Battlecars using Guid(d632036ecd41b28439e7e8dddb745b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd2f7ea9c907250c1045ccb65de42a4d') in 0.008573 seconds
+  Import took 0.011267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.800612 seconds.
+  path: Assets/Multiplayer Battlecars/Scripts
+  artifactKey: Guid(07163a6317d65294185f7231bed896aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiplayer Battlecars/Scripts using Guid(07163a6317d65294185f7231bed896aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c9a208ce57755c70c29635cda916018') in 0.007762 seconds
+  Import took 0.009975 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006050 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.833 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1469 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.2 MB.
+System memory in use after: 67.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1911.
+Total: 1.846000 ms (FindLiveObjects: 0.221600 ms CreateObjectMapping: 0.047200 ms MarkObjects: 1.561400 ms  DeleteObjects: 0.014900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.056528 seconds.
+  path: Assets/Multiplayer Battlecars/Scripts/NetworkManager.cs
+  artifactKey: Guid(28edc3c6e135c8b41a477112a76ad02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiplayer Battlecars/Scripts/NetworkManager.cs using Guid(28edc3c6e135c8b41a477112a76ad02c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db42626db7faf4bcc97fb4738b2fce85') in 0.037041 seconds
+  Import took 0.039202 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004602 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.829 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1468 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.3 MB.
+System memory in use after: 67.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1912.
+Total: 4.580200 ms (FindLiveObjects: 0.374800 ms CreateObjectMapping: 0.225100 ms MarkObjects: 3.944600 ms  DeleteObjects: 0.032500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.736780 seconds.
+  path: Assets/Multiplayer Battlecars/Scripts/Networking
+  artifactKey: Guid(0b9e55cb922fffe4798d5c6cc165bd1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiplayer Battlecars/Scripts/Networking using Guid(0b9e55cb922fffe4798d5c6cc165bd1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '929ad76d5943a220cb18827d7a31dae3') in 0.010606 seconds
+  Import took 0.012658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.197959 seconds.
+  path: Assets/Multiplayer Battlecars/Scripts/Networking/BattlecarsNetworkManager.cs
+  artifactKey: Guid(9c3ef51b9790ec547b8caf6ca7632b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiplayer Battlecars/Scripts/Networking/BattlecarsNetworkManager.cs using Guid(9c3ef51b9790ec547b8caf6ca7632b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eeb76e1dffc7343bf803668d39e95e3') in 0.007637 seconds
+  Import took 0.009798 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004360 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.813 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1469 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.5 MB.
+System memory in use after: 67.6 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1915.
+Total: 1.790400 ms (FindLiveObjects: 0.263800 ms CreateObjectMapping: 0.057700 ms MarkObjects: 1.455100 ms  DeleteObjects: 0.013000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004622 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.807 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1469 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.6 MB.
+System memory in use after: 67.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1917.
+Total: 1.856000 ms (FindLiveObjects: 0.182400 ms CreateObjectMapping: 0.070500 ms MarkObjects: 1.586400 ms  DeleteObjects: 0.015400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 203.123690 seconds.
+  path: Assets/Multiplayer Battlecars/Scripts/Networking/BattlecarsNetworkManager.cs
+  artifactKey: Guid(9c3ef51b9790ec547b8caf6ca7632b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiplayer Battlecars/Scripts/Networking/BattlecarsNetworkManager.cs using Guid(9c3ef51b9790ec547b8caf6ca7632b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b5060092cb7b930a0b11db3ed95445f') in 0.005132 seconds
+  Import took 0.007243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 108.106359 seconds.
+  path: Assets/Mirror/Examples
+  artifactKey: Guid(a08b1f591326642d1b140fc818c9c6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples using Guid(a08b1f591326642d1b140fc818c9c6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ce2fb784e41fcfb4851ebb88ea7e94') in 0.008762 seconds
+  Import took 0.010931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Mirror/Examples/Mirror.Examples.asmdef
+  artifactKey: Guid(fecf25954bb196642ab50657689761d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/Mirror.Examples.asmdef using Guid(fecf25954bb196642ab50657689761d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faa6512c14368beba13e563bf5fd4150') in 0.009340 seconds
+  Import took 0.012620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.909245 seconds.
+  path: Assets/Mirror/Examples/MultipleMatches
+  artifactKey: Guid(8e1be7be6da8e2448ba40eba0daa44b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/MultipleMatches using Guid(8e1be7be6da8e2448ba40eba0daa44b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04f4874f5ed0e7e97ac5a3301e5a2887') in 0.007027 seconds
+  Import took 0.009271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.845649 seconds.
+  path: Assets/Mirror/Examples/MultipleMatches/Scenes
+  artifactKey: Guid(a92fd9255da5fe9449e612566195a3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/MultipleMatches/Scenes using Guid(a92fd9255da5fe9449e612566195a3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e25f06905d372189774480a0480afd5') in 0.005168 seconds
+  Import took 0.007221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.690571 seconds.
+  path: Assets/Mirror/Examples/MultipleMatches/Scenes/Main.unity
+  artifactKey: Guid(aa1f875396fa7d348a782cebc2f75d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mirror/Examples/MultipleMatches/Scenes/Main.unity using Guid(aa1f875396fa7d348a782cebc2f75d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a77579d736cc5f9fda99e92b6bca8eb0') in 0.015903 seconds
+  Import took 0.018191 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.943056 seconds.
+  path: Assets/Multiplayer Battlecars/Scenes/Offline.unity
+  artifactKey: Guid(376211f13baa2c04d8028e52b853ed98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiplayer Battlecars/Scenes/Offline.unity using Guid(376211f13baa2c04d8028e52b853ed98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53087ee6e54f7fe8ec144850c2ad17a1') in 0.009060 seconds
+  Import took 0.011214 seconds .
+

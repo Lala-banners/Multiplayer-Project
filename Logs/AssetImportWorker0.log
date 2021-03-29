@@ -1394,3 +1394,11 @@ System memory in use after: 70.8 MB.
 Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 1993.
 Total: 1.945800 ms (FindLiveObjects: 0.187700 ms CreateObjectMapping: 0.092600 ms MarkObjects: 1.641800 ms  DeleteObjects: 0.022300 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 356.046963 seconds.
+  path: Assets/Multiplayer Battlecars/Prefabs/Player.prefab
+  artifactKey: Guid(b10e8f5e077a24c4b9c672c60de1a818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Multiplayer Battlecars/Prefabs/Player.prefab using Guid(b10e8f5e077a24c4b9c672c60de1a818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c68f7fdd5b501a7556dd2954bc43648') in 0.035352 seconds
+  Import took 0.037761 seconds .
+

@@ -1402,3 +1402,4 @@ Received Import Request.
 Start importing Assets/Multiplayer Battlecars/Prefabs/Player.prefab using Guid(b10e8f5e077a24c4b9c672c60de1a818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c68f7fdd5b501a7556dd2954bc43648') in 0.035352 seconds
   Import took 0.037761 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -1,11 +1,6 @@
-using UnityEngine;
-
 using UnityEngine.SceneManagement;
-
 using Mirror;
-
 using System.Collections;
-
 using Battlecars.UI;
 
 namespace Battlecars.Networking

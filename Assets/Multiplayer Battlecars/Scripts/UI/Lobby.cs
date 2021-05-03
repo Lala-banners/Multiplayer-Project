@@ -16,7 +16,6 @@ namespace Battlecars.UI
         private bool assigningToLeft = true;
 
         private BattlecarsPlayerNet localPlayer;
-
         #endregion
 
         #region Methods

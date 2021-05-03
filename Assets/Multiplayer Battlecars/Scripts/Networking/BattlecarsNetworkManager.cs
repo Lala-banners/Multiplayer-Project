@@ -18,6 +18,8 @@ namespace Battlecars.Networking
         /// </summary>
         public bool isHost { get; private set; } = false;
 
+        public BattlecarsNetworkDiscovery disco;
+
         private Dictionary<byte, BattlecarsPlayerNet> players = new Dictionary<byte, BattlecarsPlayerNet>();
 
         /// <summary>
@@ -26,6 +28,7 @@ namespace Battlecars.Networking
         public override void OnStartHost()
         {
             isHost = true;
+            disco.AdvertiseServer();
         }
 
         /// <summary>

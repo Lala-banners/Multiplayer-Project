@@ -1,5 +1,6 @@
 using System;
 using System.Net;
+using Battlecars.UI;
 using Mirror;
 using Mirror.Discovery;
 using UnityEngine;
@@ -70,6 +71,9 @@ namespace Battlecars.Networking
         //subscribe to this event to connect to server and add games to list
         public ServerFoundEvent onServerFound = new ServerFoundEvent();
 
+        //Add lobby for server name
+        private Lobby lobby;
+
         public override void Start()
         {
             ServerId = RandomLong();
@@ -82,6 +86,13 @@ namespace Battlecars.Networking
             base.Start();
         }
 
+        private void Update()
+        {
+            if(lobby == null)
+            {
+                lobby = FindObjectOfType<Lobby>();
+            }
+        }
 
         /// <summary>
         /// Process the request from a client
@@ -103,7 +114,8 @@ namespace Battlecars.Networking
                 return new DiscoveryResponse()
                 {
                     serverId = ServerId,
-                    uri = transport.ServerUri()
+                    uri = transport.ServerUri(),
+                    gameName = lobby.LobbyName
                 };
             }
             catch(NotImplementedException _e)

@@ -10,28 +10,37 @@ namespace Battlecars.UI
     {
         //Activate buttons, load game and connect to the game we selected, and start the client.
         [SerializeField] private TextMeshProUGUI ipDisplay;
-        private BattlecarsNetworkManager networkManager;
         [SerializeField] private TextMeshProUGUI serverName;
+        public string GameName => response.gameName;
 
-        public void SetUp(string _address, BattlecarsNetworkManager _networkMan)
+        private BattlecarsNetworkManager networkManager;
+        private DiscoveryResponse response;
+
+        public void SetUp(DiscoveryResponse _response, BattlecarsNetworkManager _networkMan)
         {
-            ipDisplay.text = _address;
+            UpdateResponse(_response);
             networkManager = _networkMan;
+
             Button button = gameObject.GetComponent<Button>();
             button.onClick.AddListener(JoinGame);
+        }
+
+        public void UpdateResponse(DiscoveryResponse _response)
+        {
+            response = _response;
+            ipDisplay.text = $"<b>{response.gameName}</b>\n{response.EndPoint.Address}";
         }
 
         private void JoinGame()
         {
             //When we touch the butt, connect to the server displayed on the butt
-            networkManager.networkAddress = ipDisplay.text.Trim((char)8203);
+            networkManager.networkAddress = response.EndPoint.Address.ToString();
             networkManager.StartClient();
         }
 
         private void SetUpMatch(string _serverName, BattlecarsNetworkManager _networkMan)
         {
             serverName.text = _serverName;
-
         }
     }
 }

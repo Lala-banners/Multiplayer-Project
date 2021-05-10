@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using Battlecars.Networking;
+using TMPro;
 
 namespace Battlecars.UI
 {
@@ -8,10 +9,14 @@ namespace Battlecars.UI
     {
         #region Variables and Properties
         private List<LobbyPlayerSlot> leftTeamSlots = new List<LobbyPlayerSlot>();
-        private List<LobbyPlayerSlot> rightTeamSlots = new List<LobbyPlayerSlot>();
+        private List<LobbyPlayerSlot> rightTeamSlots = new List<LobbyPlayerSlot>(); 
+        
+        //Adding server name 
+        public string LobbyName => lobbyNameInput.text;
 
         [SerializeField] private GameObject leftTeamHolder, rightTeamHolder;
-        
+        [SerializeField] private TMP_InputField lobbyNameInput;
+
         //Flipping bool to determine which column the connected player will be added to.
         private bool assigningToLeft = true;
 

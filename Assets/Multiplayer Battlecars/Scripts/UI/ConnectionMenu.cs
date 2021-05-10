@@ -51,8 +51,16 @@ namespace Battlecars.UI
                 game.gameObject.SetActive(true);
 
                 //Setup the game using the response and add it to the list
-                game.SetUp(_response.EndPoint.Address.ToString(), networkManager);
+                game.SetUp(_response, networkManager);
                 discoveredGames.Add(_response.EndPoint.Address, game);
+            }
+            else
+            {
+                DiscoGame discoGame = discoveredGames[_response.EndPoint.Address];
+                if(discoGame.GameName != _response.gameName)
+                {
+                    discoGame.UpdateResponse(_response);
+                }
             }
         }
     }

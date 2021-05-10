@@ -132,3 +132,19 @@ Script Module: Mirror.Components.dll
 [NetworkTransformChild] NetworkBehaviourProcessor
 Weave behaviours and messages took593 milliseconds
   ProcessSitesModule Mirror.Components.dll elapsed time:00:00:00.0356069
+Find all reader and writers took 443 milliseconds
+Script Module: Mirror.Tests.Common.dll
+Weave behaviours and messages took15 milliseconds
+Find all reader and writers took 405 milliseconds
+Script Module: Unity.TextMeshPro.dll
+Weave behaviours and messages took723 milliseconds
+Find all reader and writers took 410 milliseconds
+Script Module: Mirror.Tests.Runtime.dll
+Weave behaviours and messages took41 milliseconds
+Find all reader and writers took 421 milliseconds
+Script Module: Telepathy.dll
+Weave behaviours and messages took23 milliseconds
+Find all reader and writers took 447 milliseconds
+Script Module: Mirror.Authenticators.dll
+Weave behaviours and messages took169 milliseconds
+  ProcessSitesModule Mirror.Authenticators.dll elapsed time:00:00:00.0081140
